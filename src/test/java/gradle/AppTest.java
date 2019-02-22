@@ -14,7 +14,7 @@ public class AppTest {
 
     @Test
     public void testString() {
-        String a = "1";
+        final String a = "1";
         String b = "1";
         System.out.println(a == b);
         String d = "12";
